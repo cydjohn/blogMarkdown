@@ -36,6 +36,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 pod 'Alamofire', '~> 1.2'
+
 ```
 
 **carthage**
@@ -44,6 +45,7 @@ pod 'Alamofire', '~> 1.2'
 
 ```ogdl
 github "Alamofire/Alamofire" >= 1.2
+
 ```
 
 或者也可以手动安装……详情见[Alamofire](https://github.com/Alamofire/Alamofire)
@@ -65,6 +67,7 @@ import Alamofire
 import Alamofire
 
 Alamofire.request(.GET, "http://httpbin.org/get")
+
 ```  
   
 
@@ -77,6 +80,7 @@ Alamofire.request(.GET, "http://httpbin.org/get")
          .responseString { (_, _, string, _) in
                   println(string)
          }
+         
 ```
 
 **收到数据转为JSON**
@@ -152,11 +156,11 @@ Alamofire.request(.POST, "http://httpbin.org/post", parameters: parameters)
 // HTTP body: foo=bar&baz[]=a&baz[]=1&qux[x]=1&qux[y]=2&qux[z]=3
 ```
 
-**form形式上传图片**
+<!--**form形式上传图片**-->
 
 
 
 
 由于大部分网络数据都是JSON格式的，所以Alamofire搭配[SwiftyJSON](http://caoyudong.com/2015/10/27/SwiftyJSON/)会比较好用
 
-> 介于swift一直在升级，很多东西会经常变动。这篇文档也可能过一段时间就过时了，有问题可以到stack overflow上面看下，或者[Alamofire](https://github.com/Alamofire/Alamofire)里面提下issue，我也会经常来更新下博客的～
+> 介于swift一直在升级，很多东西会经常变动。这篇文档也可能过一段时间就过时了，可以到[Alamofire](https://github.com/Alamofire/Alamofire)查看具体的改动，我也会经常来更新下博客的～

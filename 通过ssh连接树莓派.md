@@ -48,3 +48,14 @@ nmap -sP 192.168.1.0/24
 连接成功后就可以操作树莓派了（默认密码 raspberry）
 ![](http://7xkfbb.com1.z0.glb.clouddn.com/15-10-3/35973891.jpg)
 
+-----
+
+## 或者
+
+直接
+
+```
+ssh pi@raspberrypi.home
+```
+
+raspberrypi.home 就是树莓派的地址，今早发现的～
