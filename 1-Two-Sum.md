@@ -1,6 +1,6 @@
 title: 1. Two Sum
 date: 2016-12-15 18:49:03
-tags: leetcode
+tags: 算法
 ---
 
 
