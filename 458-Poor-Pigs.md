@@ -13,6 +13,10 @@ Answer this question, and write an algorithm for the follow-up general case.
 
 If there are n buckets and a pig drinking poison will die within m minutes, how many pigs (x) you need to figure out the "poison" bucket within p minutes? There is exact one bucket with poison.
 
+<!--more-->
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 ## 思路
 
 看了别人一个特别吊的思路：<https://leetcode.com/problems/poor-pigs/discuss/94266/Another-explanation-and-solution>
