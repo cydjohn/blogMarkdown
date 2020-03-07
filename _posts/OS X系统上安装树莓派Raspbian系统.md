@@ -17,7 +17,6 @@ tags: 树莓派
 
 * 将SD卡插入Mac上的读卡器。
 * 点击屏幕左上角苹果标志，`关于本机`->`系统报告`,找到`USB`->`Card Reader`->`BSD`。找到一个类似于 `diskn`的数据，比如我的是 `disk2`。
-	![](http://7xkfbb.com1.z0.glb.clouddn.com/15-12-3/66618794.jpg)
 * 用磁盘工具抹掉SD卡，**SD卡文件格式必须为 FAT32**，如果不是自己用磁盘工具重新格式化（`launchpad`->`其他`->`磁盘工具`）。
 * 在终端输入   
 
@@ -66,8 +65,20 @@ sudo dd bs=1m if=2015-11-21-raspbian-jessie.img of=/dev/rdisk2
 
 > 时间很慢，大约需要5分多钟，没有进度条，慢慢等喽
 
+------
+
+2018-10月更新
+
+## 通过 `etcher.io` 安装
+
+最近发现了一个app，支持所有平台，鼠标点点就可以吧镜像写到SD卡里面。
+
+app名字叫`etcher`
+
+官方网站是：https://etcher.io/
 
 
+![](../../../../image/30ee5f86-a846-4706-bfde-08adc07f9382.gif)
 
 
 ---

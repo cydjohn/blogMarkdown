@@ -12,7 +12,7 @@ tags: Mac
 	 
 添加图片看到的都是这样的：
 
-![](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/95341796.jpg)
+![](../../../../image/515efc15-56d8-4018-996c-1337b5d2edd8.JPG)
 
 但是如果我想让图片居中该怎么做呢？查了点资料之后发现可以这样：
 
@@ -27,7 +27,7 @@ tags: Mac
 
 
 <div style="text-align: center">
-	<img src="http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/95341796.jpg"/>
+	<img src="../../../../image/515efc15-56d8-4018-996c-1337b5d2edd8.JPG"/>
 </div>
 	
 相当于手动嵌入了HTML代码
@@ -36,17 +36,15 @@ tags: Mac
 
 ```html
 <center>
-![](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/95341796.jpg)
+![](url)
 </center>
 ```
 
 
 <center>
 
-![](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/95341796.jpg)
+![](../../../../image/515efc15-56d8-4018-996c-1337b5d2edd8.JPG)
 
 </center>
 
 
-
-> 此图片只是为了纪念今天风云微博的优衣库事件～～

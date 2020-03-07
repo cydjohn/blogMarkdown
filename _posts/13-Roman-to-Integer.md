@@ -22,7 +22,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 	* 左减的数字有限制，仅限于I、X、C。比如45不可以写成VL，只能是XLV
 但是，左减时不可跨越一个位值。比如，99不可以用IC（ {\displaystyle 100-1} 100-1）表示，而是用XCIX（ {\displaystyle [100-10]+[10-1]} [100-10]+[10-1]）表示。（等同于阿拉伯数字每位数字分别表示。）
 	* 左减数字必须为一位，比如8写成VIII，而非IIX。
-	* 右加数字不可连续超过三位，比如14写成XIV，而非XIIII。（见下方“数码限制”一项。）
+	* 右加数字不可连续超过三位，比如14写成XIV，而非XIIII。
 
 > 参考自[维基百科](https://zh.wikipedia.org/wiki/%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97)
 

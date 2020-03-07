@@ -19,11 +19,10 @@ tags: markdown
     
 大概意思是他自己也经常用Mou写Markdown，感觉Mou很方便。但是有一天惊讶的发现Mou的作者Chen Luo说自己已经不准备开发了而且想把要把[Mou卖了](http://www.v2ex.com/t/113734)(各种撕逼，评论很精彩啊)。但是作者表示自己包包里面的钱不够买（Mou拍卖底价50W 大洋），但是自己比价闲又有点程序开发基础，于是决定自己做一个，然后MacDown就这么诞生了!!
 
-![Mac Down](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/91664067.jpg)
+![Mac Down](../../../../image/42fe5948-92af-46f2-af7d-60e34cc86ed6.png)
 
 目前为止感觉跟Mou差不多，很好看，很好用。但是Macdown不要钱啊！！！而且Macdwon开源啊[github传送门](https://github.com/uranusjr/macdown)！！！！凭这两点就足矣完虐Mou了有没有！！！
 
-![](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/73478289.jpg)
 
 
 ## 下面翻译一下Macdown的官方说明吧
@@ -32,13 +31,13 @@ tags: markdown
 ## <a name="markdown-pane"></a>Markdown偏好设置（The Markdown Preference Pane）
 
 在这里设置markdown转换为html的偏好
-![Markdown preferences pane](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/48355922.jpg)
+![Markdown preferences pane](../../../../image/e10cd03b-6665-4d91-8abb-4ddf0fab95d5.png)
 
 ### 文件格式
 
 
 ***Smartypants***插件会根据上下文自动把 (`"` 和 `'`) 符号转化成 (`“`,`‘`,`”`和`’`)。这个功能对于像作者一样排版强迫症很有用。
-比如 `"test"`写在上面就自动变成 "test"这样了![](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/47607869.jpg)
+比如 `"test"`写在上面就自动变成 "test"这样了![](../../../../image/4bf6df3d-537d-469d-b38a-e821eb4a22bf.png)
 
 
 
@@ -86,9 +85,9 @@ print('Hello world!')
 
 
 
-你也可以在第一行末尾加个语言的名字，然后后面的代码酒会自动高亮了。**当然你要把Enable highlighting in code blocks勾上**（在 Preference—>rendering里面）。
+你也可以在第一行末尾加个语言的名字，然后后面的代码酒会自动高亮了。**当然你要把Syntax  highlighting in code blocks勾上**（在 Preference—>rendering里面）。
 
-![Syntax highlighting example](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/29304237.jpg)
+![Syntax highlighting example](../../../../image/18a6c905-3983-4d32-aa06-8b6ec12ee8ff.png)
 
 ~~~python
 foo = (1,2,3,4)
@@ -217,7 +216,7 @@ Footnotes           | [\^4] and [\^4]: | `[^4]` and footnote 4 |
 
 ## <a name="rendering-pane"></a>The Rendering Preference Pane
 这个板块用来设置页面的样式和颜色 
-![Rendering preferences pane](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/25724586.jpg)
+![Rendering preferences pane](../../../../image/18234c28-471f-424f-ad09-94db84a099b9.png)
 
 ### CSS
 你可以使用不同的CSS来改变html页面的样子，你甚至可以添加自己的CSS。
@@ -229,13 +228,39 @@ Footnotes           | [\^4] and [\^4]: | `[^4]` and footnote 4 |
 ### TeX风格的数学公式（TeX-like Math Syntax ）
 （需要联网） 
 
-![](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/33532234.jpg)
+```latex
+\\[
+    A^T_S = B
+\\]
+```
+
+
+\\[
+    A^T_S = B
+\\]
+
+> 或者
+
+```html
+<math display="block">
+    <msubsup><mi>A</mi> <mi>S</mi> <mi>T</mi></msubsup>
+    <mo>=</mo>
+    <mi>B</mi>
+</math>
+```
+
+<math display="block">
+    <msubsup><mi>A</mi> <mi>S</mi> <mi>T</mi></msubsup>
+    <mo>=</mo>
+    <mi>B</mi>
+</math>
+
 
 
 （完全不懂他在说什么……）
 
 ### 复选框（Task List Syntax）
-![](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/71089597.jpg)
+![](../../../../image/c30c643c-d69a-43f8-b073-7123f4015b5f.png)
 
 
 ### Jekyll front-matter
@@ -261,18 +286,18 @@ date: 2014-06-06 20:00:00
 ## <a name="general-pane"></a>The General Preferences Pane
 
  
-![General preferences pane](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/12287531.jpg)
+![General preferences pane](../../../../image/2c552094-82d1-4f98-8408-fc7efeb6f826.png)
 
 从上到下依次是:  
 1. 改变编辑页内容的时候预览内容也会跟着改变  
 2. 滑动编辑页的时候预览也会跟着滑动  
 3. 把编辑页放到右边  
-4. 显示字符数
+4. 显示字符数. 
 5. 更新的时候包括预发行版
 
 ## <a name="editor-pane"></a>编辑页偏好设置（The Editor Preference Pane）
 
-![Editor preferences pane](http://7xkfbb.com1.z0.glb.clouddn.com/15-7-16/9293805.jpg)
+![Editor preferences pane](../../../../image/7fb0b039-3b94-4e53-8812-c0ca7f79df2c.png)
 
 
 ### Styling
